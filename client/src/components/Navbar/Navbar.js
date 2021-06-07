@@ -6,9 +6,7 @@ import decode from "jwt-decode";
 import { withStyles } from "@material-ui/core/styles";
 import { blue, red } from "@material-ui/core/colors";
 
-import memoriesLogo from "../../images/memoriesLogo.png";
-import lighthouse from "../../images/lighthousewhite.svg";
-import memoriesText from "../../images/memoriesText.png";
+import logo from "../../images/logo.png";
 import * as actionType from "../../constants/actionTypes";
 import useStyles from "./styles";
 
@@ -64,9 +62,10 @@ const Navbar = () => {
       <Link to="/" className={classes.brandContainer}>
         <img
           className={classes.image}
-          src={lighthouse}
+          src={logo}
           alt="icon"
           height="50px"
+          marginBottom="20px"
         />
         <Typography
           component={Link}
