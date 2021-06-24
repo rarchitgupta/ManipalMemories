@@ -73,7 +73,7 @@ const Navbar = () => {
           variant="h4"
           className={classes.userName}
         >
-          Manipal Memories
+          Memories
         </Typography>
       </Link>
       <Toolbar className={classes.toolbar}>
