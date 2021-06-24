@@ -1,6 +1,6 @@
 # Manipal Memories
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.PNG)
 
 ## Overview
 
